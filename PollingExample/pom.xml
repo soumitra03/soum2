@@ -4,6 +4,9 @@
 	<groupId>PollingExample</groupId>
 	<artifactId>PollingExample</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<scm>
+		<developerConnection>scm:git:file://D:/GIT/soum21/.git</developerConnection>
+	</scm>
 	<build>
 		<sourceDirectory>src</sourceDirectory>
 		<plugins>
@@ -14,6 +17,11 @@
 					<source>1.7</source>
 					<target>1.7</target>
 				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-release-plugin</artifactId>
+				<version>2.4.2</version>
 			</plugin>
 		</plugins>
 	</build>
