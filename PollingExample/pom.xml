@@ -2,10 +2,11 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>PollingExample</groupId>
 	<artifactId>PollingExample</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<scm>
 		<developerConnection>scm:git:file://D:/GIT/soum21/.git</developerConnection>
-	</scm>
+	  <tag>PollingExample-1.0.0</tag>
+  </scm>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding><!--maven 
 			variable which points to your local repository -->
