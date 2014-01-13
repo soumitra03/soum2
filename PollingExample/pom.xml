@@ -10,7 +10,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding><!--maven 
 			variable which points to your local repository -->
-		<internal.repo.path>D:/GIT/soum21/</internal.repo.path>
+		<internal.repo.path>C:/Users/Soumitra/.m2/repository</internal.repo.path>
 	</properties>
 	<distributionManagement>
 		<repository>
